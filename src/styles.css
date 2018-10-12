@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,600';
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #a9e08f, #369090);
+  color: white;
+  font-family: "Helvetica", sans-serif;
+  letter-spacing: 2px;
+
+}
+
+.btn-pokemon{
+ width: auto;
+  background: #ffffff;
+  background: linear-gradient(to right, #9CE08B 0%, #23C8AF 100%);
+  cursor: pointer;
+  border-radius: 60px;
+  padding: 10px 30px;
+  font-size: 14px;
+  color: white;
+  font-family: "Helvetica", sans-serif;
+  letter-spacing: 2px;
+}

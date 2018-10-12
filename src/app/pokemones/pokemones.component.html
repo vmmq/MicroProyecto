@@ -1,0 +1,18 @@
+
+
+<img class="logo" src="https://vignette.wikia.nocookie.net/doblaje/images/a/a0/Pokemon-logo.png/revision/latest?cb=20160319191400&path-prefix=es">
+<div *ngFor="let item of pokemones">
+    
+    <div  class="card" id="card1">
+      <img src="{{item.art_url}}" class="" alt="">
+      <div class="caption">
+        <h3 class="text">{{item.name}}</h3>
+        <button type="button" class="btn btn-pokemon"
+        tooltip="{{ (item.description.length>150)? (item.description | slice:0:150)+'..':(item.description) }}">
+  		Ver Detalle
+		</button>
+      </div>
+    </div>
+
+
+  </div>
