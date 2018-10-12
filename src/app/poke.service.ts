@@ -4650,10 +4650,30 @@ export class PokeService {
   ]
 
 
-  constructor() {
-    console.log('funcionando servicio')
+  constructor() {}
+
+
+   obtenerpokemones(pkdx?: number){
+      if(!pkdx){
+        return  this.Pokemones;
+      } else{
+        for (let pokemon of this.Pokemones) {
+          if(pokemon.pkdx_id == pkdx){
+            return pokemon;
+          }     
+        }
+      } 
    }
-   obtenerpokemones(){
-     return  this.Pokemones;
+
+   obtenerEvolucion(name?: string){
+      if(!name){
+        return  this.Pokemones;
+      } else{
+        for (let pokemon of this.Pokemones) {
+          if(pokemon.name == name){
+            return pokemon;
+          }     
+        }
+      } 
    }
 }

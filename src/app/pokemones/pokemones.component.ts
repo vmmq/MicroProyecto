@@ -8,7 +8,8 @@ import{PokeService} from './../poke.service'
 })
 export class PokemonesComponent implements OnInit {
 
-  pokemones: Array<any>=this.pokemones;
+  pokemones: Array<any>;
+  
   constructor(private _servicio:PokeService) {
     this.pokemones= _servicio.obtenerpokemones();
    }
