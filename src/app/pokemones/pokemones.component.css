@@ -12,11 +12,6 @@
 
 }
 
-
-
-
-
-
 .card img {
   height: auto;
   width:  inherit;
@@ -52,12 +47,7 @@
   padding-right: 2rem;
 }
 
-.logo{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
-}
+
 
 
 
