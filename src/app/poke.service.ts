@@ -4665,15 +4665,4 @@ export class PokeService {
       } 
    }
 
-   obtenerEvolucion(name?: string){
-      if(!name){
-        return  this.Pokemones;
-      } else{
-        for (let pokemon of this.Pokemones) {
-          if(pokemon.name == name){
-            return pokemon;
-          }     
-        }
-      } 
-   }
 }
