@@ -5,13 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PokemonesComponent } from './pokemones/pokemones.component';
 import { DetalleComponent } from './detalle/detalle.component';
-import {PokeService} from './poke.service'
+import {PokeService} from './poke.service';
+import { LogoComponent } from './logo/logo.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     PokemonesComponent,
-    DetalleComponent
+    DetalleComponent,
+    LogoComponent
   ],
   imports: [
     TooltipModule.forRoot(),
