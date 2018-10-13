@@ -33,6 +33,21 @@
 
 }
 
+.evolucion {
+  text-align: center;
+  padding-left:10;
+  padding-right:10;
+  z-index: 10;
+  position: relative;
+  font-size: 3rem;
+  color: white;
+  color: linear-gradient(to right, #A2DB95, #24CCAA);
+  font-family: "Helvetica", sans-serif;
+  letter-spacing: 2px;
+  font-smoothing: antialiased;
+}
+
+
 .card .text {
   position: relative;
   font-size: 3rem;
